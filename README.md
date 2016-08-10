@@ -1,6 +1,6 @@
 # Movie-Trailer-Website
 
-Movie Trailer Website is a simple webpage that displays a list of movies, with the possibility of viewing the youtube trailer of each movie as well. as well.
+Movie Trailer Website is a simple webpage that displays a list of movies, with the possibility of viewing the youtube trailer of each movie as well.
 This project is part of a list of projects to be completed towards being awarded the Udacity Full Stack Web Developer Nanodegree.
 
 ## Project Files
