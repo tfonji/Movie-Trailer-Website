@@ -1,7 +1,7 @@
 # Movie-Trailer-Website
 
 Movie Trailer Website is a simple webpage that displays a list of movies, with the possibility of viewing the youtube trailer of each movie as well.
-This project is part of a list of projects to be completed towards being awarded the Udacity Full Stack Web Developer Nanodegree.
+This project is one of many projects to be completed in order to be awarded the Udacity Full Stack Web Developer Nanodegree.
 
 ## Project Files
 - fresh_tomatoes.html
