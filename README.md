@@ -21,5 +21,8 @@ create movie tiles and open movie page.
 which are then stored in a python list, `movies`. This list is accessed in order to display content on the webpage. If you want add more
 movies for display, simply create new instances of the `Movie()` class, then add them to the python list, `movies`.
 
+## License
+[MIT License] (https://github.com/tfonji/Movie-Trailer-Website/blob/master/LICENSE)
+
 
 
