@@ -3,28 +3,32 @@ import fresh_tomatoes
 
 # With the imported class file, media, movies are created using the Movie() class.
 toy_story = media.Movie("Toy Story",
-                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+                        "https://goo.gl/2G6Ab7",
+                        "https://goo.gl/yuDEHP")
 
 avatar = media.Movie("Avatar",
-                      "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
-                      "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
+                      "https://goo.gl/z8A39O",
+                      "https://goo.gl/qBlcP8")
 
 school_of_rock = media.Movie("School of Rock",
-                             "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
-                             "https://www.youtube.com/watch?v=XCwy6lW5Ixc")
+                             "https://goo.gl/CBgeVI",
+                             "https://goo.gl/8wC8F9")
 
 ratatouille = media.Movie("Ratatouille",
-                          "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-                          "https://www.youtube.com/watch?v=c3sBBRxDAqk")
+                          "https://goo.gl/mVnsif",
+                          "https://goo.gl/LFekic")
 
 midnight_in_paris = media.Movie("Midnight in Paris",
-                                "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
-                                "https://www.youtube.com/watch?v=BYRWfS2s2v4")
+                                "https://goo.gl/5SwfMf",
+                                "https://goo.gl/O1dwTH")
 
 hunger_games = media.Movie("Hunger Games",
-                           "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
-                           "www.youtube.com/watch?v=qoUT7q2iTbQ")
+                           "https://goo.gl/zSnSH0",
+                           "http://goo.gl/ap2MXs")
 
-#movies below, stores the list of movies created above.
-movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+# movies below, stores the list of movies created above.
+movies = [toy_story, avatar, school_of_rock, ratatouille, 
+          midnight_in_paris, hunger_games]
+
+# Call open_movies_page function. This generates the webpage with movie posters.
+fresh_tomatoes.open_movies_page(movies)
