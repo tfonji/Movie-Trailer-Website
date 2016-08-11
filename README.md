@@ -4,14 +4,11 @@ Movie Trailer Website is a simple webpage that displays a list of movies, with t
 This project is one of many projects to be completed in order to be awarded the Udacity Full Stack Web Developer Nanodegree.
 
 ## Project Files
-- fresh_tomatoes.html
 - entertainment_center.py
 - fresh_tomatoes.py
 - media.py
 
 ## File Descriptions
-- **fresh_tomatoes.html**: This html file was provided by *Udacity* and it displays the movie posters to the screen.
-
 - **fresh_tomatoes.py**: This python file was provided by *Udacity* and contains styles and scripting for the webpage, and functions to
 create movie tiles and open movie page.
 
@@ -20,6 +17,11 @@ create movie tiles and open movie page.
 - **entertainment_center.py**: In this file, instances of the `Movie()` class are used to create information for several movies,
 which are then stored in a python list, `movies`. This list is accessed in order to display content on the webpage. If you want add more
 movies for display, simply create new instances of the `Movie()` class, then add them to the python list, `movies`.
+
+## How to run program
+1. From the command line, access the Movie-Trailer-Website folder: `cd ~/Movie-Trailer-Website`
+2. Run `python entertainment_center.py`. This will open a webpage with the movie tiles.
+
 
 ## License
 [MIT License] (https://github.com/tfonji/Movie-Trailer-Website/blob/master/LICENSE)
